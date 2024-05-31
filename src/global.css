@@ -1,0 +1,46 @@
+:root {
+    --product-blue-dark: #1E6F9F;
+    --product-blue: #4EA8DE;
+    --product-purple-dark: #5E60CE;
+    --product-purple: #8284FA;
+
+    --base-gray-700: #0D0D0D;
+    --base-gray-600: #1A1A1A;
+    --base-gray-500: #262626;
+    --base-gray-400: #333333;
+    --base-gray-300: #808080;
+    --base-gray-200: #D9D9D9;
+    --base-gray-100: #F2F2F2;
+
+    --feedback-danger: #E25858;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    &::-webkit-scrollbar{
+        height: 2px;
+        width: 2px;
+        border-radius: 40px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background: var(--base-gray-600);
+    color: var(--base-gray-100);
+}

@@ -1,0 +1,29 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background: var(--base-gray-700);
+    height: 200px;
+
+    .headerLogo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        .headerTitle{
+            font-size: 40px;
+
+            .blue{
+                color: var(--product-blue);
+            }
+
+            .purple{
+                color: var(--product-purple);
+            }
+        }
+
+    }
+}

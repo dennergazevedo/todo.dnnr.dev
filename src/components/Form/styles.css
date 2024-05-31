@@ -1,0 +1,9 @@
+.defaultForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 736px;
+    gap: 8px;
+    margin: -16px auto 0;
+}

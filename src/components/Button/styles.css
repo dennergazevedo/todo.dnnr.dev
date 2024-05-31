@@ -1,0 +1,15 @@
+.defaultButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: var(--product-blue-dark);
+    color: var(--base-gray-100);
+    border-radius: 8px;
+    border: none;
+    outline: 0;
+    gap: 8px;
+    height: 54px;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.defaultInput{
+    display: flex;
+    flex: 1;
+    padding: 8px 16px;
+    background: var(--base-gray-500);
+    border: 1px solid var(--base-gray-700);
+    color: var(--base-gray-300);
+    height: 54px;
+    font-size: 16px;
+    border-radius: 8px;
+}

@@ -1,0 +1,77 @@
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 736px;
+    gap: 8px;
+    margin: 32px auto 0;
+
+    .listHeader{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .listHeaderParagraph{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 8px;
+            color: var(--product-blue);
+            font-weight: 600;
+
+            .listHeaderBadge{
+                background: var(--base-gray-400);
+                color: var(--base-gray-200);
+                border-radius: 20px;
+                padding: 2px 12px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .taskList{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+        margin-top: 16px;
+
+        .list{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+            background: var(--base-gray-500);
+            padding: 16px 32px;
+            border: 1px solid var(--base-gray-400);
+            border-radius: 8px;
+
+            p{
+                display: flex;
+                flex: 1;
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            div{
+                cursor: pointer;
+            }
+        }
+
+        .list.completed{
+            border: none;
+
+            p{
+                text-decoration: line-through;
+                color: var(--base-gray-300);
+            }
+        }
+    }
+}
