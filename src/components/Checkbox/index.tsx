@@ -1,7 +1,7 @@
 import React, {Fragment} from "react";
 import './styles.css';
 import Checked from "../../assets/Checked.tsx";
-import {TodoList} from "../List";
+import { TodoList } from "../../sdk/todoContext.tsx";
 
 interface CheckboxProps{
     task: TodoList

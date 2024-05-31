@@ -7,6 +7,7 @@
     max-width: 736px;
     gap: 8px;
     margin: 32px auto 0;
+    padding: 0 16px;
 
     .listHeader{
         display: flex;
