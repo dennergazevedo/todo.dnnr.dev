@@ -14,6 +14,7 @@ const Form: React.FC = () => {
 
     const handleAddTask = useCallback((event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
+        setValue('')
         addItem({
             text: value,
             completed: false
